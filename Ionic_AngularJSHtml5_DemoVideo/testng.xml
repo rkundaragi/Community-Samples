@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	<test name="Test samsung s6">
+		<parameter name="deviceID" value="1015FA7BCD813803" />
+		<parameter name="appName" value="com.csform.ionic.blue" />
+		<parameter name="mobileOS" value="Android" />		
+		<classes>
+			<!-- <class name="com.IHG.tests.Scenario7" />
+			<class name="com.IHG.tests." /> -->
+			<class name="com.IHG.tests.IonicTest" />
+		</classes>
+	</test> 
+	<test name="Test samsung s7">
+		<parameter name="deviceID" value="02157DF2A1B46C22" />
+		<parameter name="appName" value="com.csform.ionic.blue" />
+		<parameter name="mobileOS" value="Android" />		
+		<classes>
+			<class name="com.IHG.tests.IonicTest" />
+		</classes>
+	</test> 
+</suite> 
+
+
